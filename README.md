@@ -11,7 +11,7 @@ request -->  | REDIS - request topic | <------listen------> |  Camel Redis Compo
                                                                                                                         V
                                                                                                             
              o----------------------o                                                                     o---------------------------o
-response <-- | REDIS - response topic | <------------------publish------------------------------------------|  Spring Redis Publisher   |
+response <-- |REDIS - response topic| <------------------publish------------------------------------------|  Spring Redis Publisher   |
              o----------------------o                                                                     o---------------------------o
                                                                                                           
 
