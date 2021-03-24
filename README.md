@@ -85,8 +85,10 @@ nacho@libre:/tmp/apachecamel-in-springboot$ java -jar target/camel-springboot-1.
 
 # How to test
 
-Put json string into "task-request" topic of Redis.
+1. Subscribe to "task-response" topic of Redis.
+2. Publish a json string into "task-request" topic of Redis. You will get message in "task-response" topic.
 
+(Ref: https://redis.io/topics/pubsub)
 
 # Commercial collaboration
 
