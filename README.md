@@ -4,7 +4,7 @@ Apache Camel hosted in SpringBoot listening to Redis PubSub topic (and responds 
 
 ```                                                                            
              o-----------------------o                o------------------------o               o----------------------o
-request -->  | REDIS - request topic | <---listen---> |  Camel Redis Component |---forward---> | Camel SEDA Component |
+request -->  | REDIS - request topic | <---listen---- |  Camel Redis Component |---forward---> | Camel SEDA Component |
              o-----------------------o                o------------------------o               o----------------------o
                                                                                                            |
                                                                                                            |
